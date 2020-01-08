@@ -34,34 +34,3 @@ function escada(n) {
 }
 
 escada(5)
-/*
-[
-'    #', 
-'   ##', 
-'  ###', 
-' ####', 
-'#####' 
-]
-*/
-
-/*
-for(let i = 1; i <= n; i++) {
-        
-
-        for(let j = n; j >= n; j--) {
-            var degrau = "#".repeat(i)
-            quantidadeEspaco.push(j)
-            var espacoDegrau = quantidadeEspaco.toString()
-            var espacoReplace = espacoDegrau.replace(j, " ") //ta substitundo 4 por um espaço. Preciso decrementar isso.
-            var repeatEspaco = espacoReplace.repeat(j/i) 
-            array.push(repeatEspaco + degrau)
-        }
-        // e se eu transformar o j em uma string contando 5, 4, 3, 2, 1.
-
-        //console.log(quantidadeEspaco)
-    //console.log(typeof(quantidadeEspaco))
-    //console.log(typeof(espacoDegrau))
-    //console.log(espacoDegrau)
-
-    }
-    */
