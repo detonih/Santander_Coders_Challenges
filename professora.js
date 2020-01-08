@@ -49,17 +49,6 @@ se um estudante chegou 10 minutos atrasado, outro 5 minutos antes da hora, outro
     
  }
  
- //console.log([alunosDaSegunda, alunosDaTerça, alunosDaQuarta].length)
- //console.log(acontece(alunosDaSegunda, 2))
+ console.log([alunosDaSegunda, alunosDaTerça, alunosDaQuarta].length)
+ console.log(acontece(alunosDaSegunda, 2))
  console.log(aberturas([alunosDaSegunda, alunosDaTerça, alunosDaQuarta], 2))
-
- /*
- for(var j = 0; j < diaAula.length; j++) {
-       // acontece(diaAula[j]) ? contagemAulas.push(true) : contagemAulas.push(false)
-        if(acontece(diaAula[j], quantidade)) {
-            contagemAulas.push(true)
-        } else {
-            contagemAulas.push(false)
-        }
-    }
-    */
